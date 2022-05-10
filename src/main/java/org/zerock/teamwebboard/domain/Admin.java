@@ -11,10 +11,10 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Admin {
 
-    private String adminID;
-    private String adminName;
-    private String adminCall;
-    private String adminEmail;
+    private String id;
+    private String name;
+    private Integer call;
+    private String email;
     private Integer reportNum;
 
     private LocalDate regDate;

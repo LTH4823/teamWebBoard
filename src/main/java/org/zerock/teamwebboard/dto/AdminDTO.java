@@ -6,10 +6,10 @@ import java.time.LocalDate;
 
 @Data
 public class AdminDTO {
-    private String adminID;
-    private String adminName;
-    private Integer adminCall;
-    private String adminEmail;
+    private String id;
+    private String name;
+    private Integer call;
+    private String email;
     private Integer reportNum;
 
     private LocalDate regDate;

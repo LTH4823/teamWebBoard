@@ -11,11 +11,11 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Requester {
 
-    private String requesterID;
-    private String requesterName;
-    private String requesterCall;
-    private String requesterEmail;
-    private String requesterFile;
+    private String id;
+    private String name;
+    private String call;
+    private String email;
+    private String file;
     private String residentNum;
 
     private LocalDate regDate;
